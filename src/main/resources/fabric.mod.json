@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "frogprince",
+	"version": "${version}",
+	"name": "Frog Prince",
+	"description": "Turns Frog Prince kills on Hypixel SkyBlock's Lotus Atoll into a three-reel royal gamble that ends on the Prince's Crown Jewel. The result is driven only by what actually dropped, so it never claims a drop you did not get.",
+	"authors": [
+		"JadeSCRIPTZ"
+	],
+	"contact": {
+		"sources": "https://github.com/JadeSCRIPTZ"
+	},
+	"license": "MIT",
+	"icon": "assets/frogprince/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.jadescriptz.frogprince.FrogPrinceClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
